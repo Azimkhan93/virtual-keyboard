@@ -1,0 +1,50 @@
+.main-container {
+  height: 100vh;
+  padding-top: 80px;
+}
+
+.input-area {
+  padding-bottom: 30px;
+}
+
+img{
+  width: 30px;
+  height: 30px;
+}
+
+.wrapper{
+  width: 80%;
+  margin: auto;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.row{
+  display: flex;
+  gap: 10px;
+}
+
+.key{
+  font-size: 1.5rem;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 10px;
+  line-height: 40px;
+}
+
+.functional {
+  font-size: 1.2rem;
+}
+
+.backspace{
+  width: 110px;
+}
+
+.tab{
+  width: 60px;
+}
