@@ -1,6 +1,5 @@
 .main-container {
-  height: 100vh;
-  padding-top: 80px;
+  padding-top: 0px;
 }
 
 .input-area {
@@ -15,12 +14,17 @@ img{
 .wrapper{
   width: 80%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .keyboard {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
+  
 }
 .row{
   display: flex;
@@ -28,23 +32,55 @@ img{
 }
 
 .key{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   border: 1px solid black;
   width: 40px;
   height: 40px;
   text-align: center;
   border-radius: 10px;
   line-height: 40px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+p{
+  margin: 0;
+  line-height: 1.5rem;
+}
+
 
 .functional {
   font-size: 1.2rem;
 }
 
-.backspace{
-  width: 110px;
+.backspace {
+  width: 115px;
 }
 
-.tab{
+.caps-lock {
+  font-size: 1rem;
+  width: 90px;
+}
+
+.enter {
+  width: 119px;
+}
+
+.lshift {
+  width: 128px
+}
+
+.del, .ctrl, .windows, .alt {
+  width: 45px;
+}
+
+.left, .right, .up, .down, .tab, .rshift {
   width: 60px;
+}
+
+.space {
+  width: 290px;
 }
