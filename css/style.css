@@ -84,3 +84,7 @@ p{
 .space {
   width: 290px;
 }
+
+.isPressed {
+  background-color: forestgreen;
+}
