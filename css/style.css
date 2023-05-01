@@ -73,7 +73,7 @@ p{
   width: 128px
 }
 
-.del, .ctrl, .windows, .alt {
+.del, .lctrl, .rctrl, .windows, .lalt, .ralt {
   width: 45px;
 }
 
